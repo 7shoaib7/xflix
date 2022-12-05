@@ -1,0 +1,125 @@
+/* Video page */
+
+.video-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .iframe-parent {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin: 20px;
+  }
+  .iframe-parent iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius:16px;
+  }
+  
+  @media (max-width: 768px) {
+    .iframe-main {
+      width: unset;
+      min-height: unset;
+    }
+  }
+  .playing-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    margin: 5px 0px;
+  }
+  
+  .tag {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+  
+    color: #c2c2c2;
+    margin-right: 1rem;
+    font-family: "Roboto";
+  }
+  
+  .line {
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .dot {
+    background-color: #fff;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  .vote-container {
+    display: inline-flex;
+    /* flex-wrap: wrap; */
+  }
+  
+  .vote-pill {
+    color: #fff;
+    mix-blend-mode: normal;
+    border-radius: 16px;
+    background-color: #2b2b2b;
+    margin-right: 15px;
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .vote-pill:hover {
+    background-color: #474747;
+  }
+  .thumb-icon {
+    color: #797979;
+    margin-right: 10px;
+  }
+  
+  .video-tile {
+    /* Have cards of equal height */
+    height: 100%;
+    -webkit-transition: 0.2s all;
+    /* overflow: hidden; */
+  }
+  
+  .video-tile:hover {
+    cursor: pointer;
+    /* opacity: 0.6; */
+     overflow: hidden;
+  }
+
+
+  .video-img:hover{
+    /* -webkit-filter: brightness(50%); */
+    -webkit-transition: 0.2s all;
+    transform: scale(1.1);
+  }
+  
+  .no-videos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    color: #999;
+  }
+  .Line{
+    /* margin:5px auto 40px; */
+    width:100%;
+    height:.8px;
+    background:hsla(0,0%,84.7%,.5)
+}
+

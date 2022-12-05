@@ -1,0 +1,32 @@
+.content-rating-btn {
+    color: rgba(255, 255, 255, 0.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .content-rating-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .active-toolbar-button.content-rating-btn {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.87);
+  }
+  
+  .active-toolbar-button.content-rating-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  #tool-barHeight {
+   height:12vh;
+  }
+
+
+  @media (max-width: 768px){
+    #tool-barHeight{
+      height:15vh;
+    }
+  }

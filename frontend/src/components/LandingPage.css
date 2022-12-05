@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    background-color: #181818;
+    min-height: 100vh;
+  }
+  /* Dashboard */
+  .video-grid {
+    color: white;
+  }
+  
+  /* Genre List */
+  .tool-bar {
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .sort-select{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border: none;
+    /* border:0px; */
+    outline:none;
+  }
+  select option[value="releaseDate"] {
+    background: rgba(100, 100, 100, 0.3);
+  }
+  
+  select option[value="viewCount"] {
+    background: rgba(150, 150, 150, 0.3);
+  }
+  
+ 
+  .genre-btn {
+    color: rgba(255, 255, 255, 0.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .active-toolbar-button.genre-btn {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.87);
+  }
+  
+  .genre-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .active-toolbar-button.genre-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .sort-by{
+    color: rgba(255, 255, 255, 0.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+    
+  .active-toolbar-button.sort-by {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.87);
+  }
+  
+  .sort-by:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .active-toolbar-button.sort-by:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  
+  /* Explore */
+  .preview-image {
+    width: 100%;
+  }
+
+
+  .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .search {
+    background-color: black;
+    min-width: 24rem;
+    position: relative;
+    left: 1rem;
+  }
+  
+  .search-mobile {
+    display: block !important;
+  }
+  
+  .search-desktop {
+    display: none !important;
+  }
+  
+  
+  @media (min-width: 768px) {
+    /* To make images take up equal height in a row */
+    .preview-image {
+      height: 150px;
+      object-fit: cover;
+    }
+    .search-mobile {
+      display: none !important;
+    }
+    .search-desktop {
+      display: block !important;
+    }
+  }
+  

@@ -1,0 +1,46 @@
+/* Upload modal */
+.form-header {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: normal;
+  }
+  
+  #upload-btn-release-date::placeholder {
+    color: transparent;
+  }
+  .dialog {
+    display: flex;
+    align-items: center !important;
+    padding: 40px;
+    max-width: 500px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.16),
+        rgba(255, 255, 255, 0.16)
+      ),
+      #121212;
+  }
+  
+  .form-element .MuiInputLabel-root,
+  .form-element .MuiFormHelperText-root,
+  .form-element input[type="date"] {
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
+  
+  .form-element input[type="text"],
+  .form-element .MuiSelect-select {
+    color: rgba(255, 255, 255, 0.87) !important;
+  }
+  
+  .form-element fieldset {
+    border-color: rgba(255, 255, 255, 0.38) !important;
+  }
+  
+  #upload-btn-submit {
+    background-color: #ee1520;
+  }
+  
+  .error-msg {
+    margin: 10px 0px;
+    color: red;
+  }
+  

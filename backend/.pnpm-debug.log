@@ -1,0 +1,1013 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "start": "node backend/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git@gitlab.crio.do:COHORT_ME_BUILDOUT_XFLIX_NODE_ENROLL_1641732453619/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+        "express": "^4.17.3"
+      },
+      "devDependencies": {
+        "nodemon": "^2.0.15"
+      }
+    },
+    "prefix": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/crio-user/.pnpm-store/v3",
+    "virtualStoreDir": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE/node_modules/.pnpm"
+  },
+  "3 info pnpm": {
+    "message": "Lockfile is up-to-date, resolution step is skipped",
+    "prefix": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE"
+  },
+  "4 debug pnpm:stats": {
+    "prefix": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "removed": 0
+  },
+  "5 debug pnpm:stage": {
+    "prefix": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "stage": "importing_started"
+  },
+  "6 warn pnpm:install-check": {
+    "message": "Unsupported platform for /fsevents/2.3.2: wanted {\"cpu\":[\"any\"],\"os\":[\"darwin\"]} (current: {\"os\":\"linux\",\"cpu\":\"x64\"})",
+    "prefix": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE"
+  },
+  "7 debug pnpm:skipped-optional-dependency": {
+    "details": "Error: Unsupported platform for /fsevents/2.3.2: wanted {\"cpu\":[\"any\"],\"os\":[\"darwin\"]} (current: {\"os\":\"linux\",\"cpu\":\"x64\"})",
+    "package": {
+      "id": "/fsevents/2.3.2",
+      "name": "fsevents",
+      "version": "2.3.2"
+    },
+    "prefix": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "reason": "unsupported_platform"
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.17.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime-types/2.1.35",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime-db/1.52.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/negotiator/0.6.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/array-flatten/1.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/body-parser/1.19.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/bytes/3.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/content-type/1.0.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/depd/1.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/http-errors/1.8.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/setprototypeof/1.2.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/statuses/1.5.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/toidentifier/1.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/iconv-lite/0.4.24",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safer-buffer/2.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/on-finished/2.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ee-first/1.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/qs/6.9.7",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/raw-body/2.4.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/unpipe/1.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-is/1.6.18",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/media-typer/0.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/content-disposition/0.5.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safe-buffer/5.2.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "36 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie-signature/1.0.6",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/encodeurl/1.0.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-html/1.0.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/etag/1.8.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/finalhandler/1.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/parseurl/1.3.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fresh/0.5.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/merge-descriptors/1.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/methods/1.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/proxy-addr/2.0.7",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/forwarded/0.2.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ipaddr.js/1.9.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/range-parser/1.2.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/send/0.17.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/destroy/1.0.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime/1.6.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "54 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.1.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/serve-static/1.14.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "56 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/utils-merge/1.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "57 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vary/1.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.5.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "60 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/anymatch/3.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/normalize-path/3.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "62 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/picomatch/2.3.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "63 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/braces/3.0.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "64 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fill-range/7.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/to-regex-range/5.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "66 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-number/7.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "67 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob-parent/5.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "68 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-glob/4.0.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "69 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-extglob/2.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "70 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-binary-path/2.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "71 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/binary-extensions/2.2.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "72 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readdirp/3.6.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "73 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/3.2.7",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "74 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ignore-by-default/1.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "75 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "76 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/brace-expansion/1.1.11",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "77 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/balanced-match/1.0.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "78 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/concat-map/0.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "79 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pstree.remy/1.1.8",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "80 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/5.7.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "81 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/5.5.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "82 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/3.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "83 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/touch/3.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "84 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nopt/1.0.10",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "85 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/abbrev/1.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "86 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/undefsafe/2.0.5",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "87 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/update-notifier/5.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "88 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/boxen/5.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "89 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-align/3.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "90 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string-width/4.2.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "91 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/emoji-regex/8.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "92 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "93 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "94 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-regex/5.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "95 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/camelcase/6.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "96 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "97 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "98 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "99 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "100 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "101 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "102 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-boxes/2.2.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "103 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-fest/0.20.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "104 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/widest-line/3.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "105 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "106 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/configstore/5.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "107 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dot-prop/5.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "108 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-obj/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "109 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.9",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "110 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/make-dir/3.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "111 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/6.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "112 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/unique-string/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "113 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/crypto-random-string/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "114 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/write-file-atomic/3.0.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "115 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/imurmurhash/0.1.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "116 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-typedarray/1.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "117 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/signal-exit/3.0.7",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "118 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typedarray-to-buffer/3.1.5",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "119 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/xdg-basedir/4.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "120 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-yarn/2.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "121 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-lazy/2.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "122 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-ci/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "123 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ci-info/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "124 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-installed-globally/0.4.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "125 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/global-dirs/3.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "126 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ini/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "127 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-path-inside/3.0.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "128 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-npm/5.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "129 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-yarn-global/0.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "130 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/latest-version/5.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "131 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/package-json/6.5.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "132 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/got/9.6.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "133 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sindresorhus/is/0.14.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "134 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@szmarczak/http-timer/1.1.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "135 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/defer-to-connect/1.1.3",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cacheable-request/6.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "137 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/clone-response/1.0.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "138 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mimic-response/1.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "139 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/5.2.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "140 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pump/3.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "141 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/end-of-stream/1.4.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "142 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/once/1.4.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "143 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrappy/1.0.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "144 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/http-cache-semantics/4.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "145 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/keyv/3.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "146 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/json-buffer/3.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "147 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lowercase-keys/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "148 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/normalize-url/4.5.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "149 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/responselike/1.0.2",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "150 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lowercase-keys/1.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "151 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/decompress-response/3.3.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "152 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/duplexer3/0.1.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/4.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "154 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-cancelable/1.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "155 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/to-readable-stream/1.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "156 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/url-parse-lax/3.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "157 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prepend-http/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "158 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/registry-auth-token/4.2.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "159 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rc/1.2.8",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "160 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/deep-extend/0.6.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "161 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ini/1.3.8",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "162 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimist/1.2.5",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "163 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-json-comments/2.0.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "164 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/registry-url/5.1.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pupa/2.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "166 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-goat/2.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "167 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.5",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "168 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lru-cache/6.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "169 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/yallist/4.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "170 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver-diff/3.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "resolved"
+  },
+  "171 debug pnpm:stats": {
+    "added": 163,
+    "prefix": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE"
+  },
+  "172 debug pnpm:update-check": {
+    "currentVersion": "6.20.4",
+    "latestVersion": "6.32.4"
+  },
+  "173 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "size": 5403,
+    "status": "started"
+  },
+  "174 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/raw-body/2.4.3",
+    "size": 7663,
+    "status": "started"
+  },
+  "175 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mime-db/1.52.0",
+    "size": 26992,
+    "status": "started"
+  },
+  "176 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/http-errors/1.8.1",
+    "size": 6179,
+    "status": "started"
+  },
+  "177 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/bytes/3.1.2",
+    "size": 4496,
+    "status": "started"
+  },
+  "178 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/express/4.17.3",
+    "size": 54753,
+    "status": "started"
+  },
+  "179 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/content-disposition/0.5.4",
+    "size": 6739,
+    "status": "started"
+  },
+  "180 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/setprototypeof/1.2.0",
+    "size": 1969,
+    "status": "started"
+  },
+  "181 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/serve-static/1.14.2",
+    "size": 8439,
+    "status": "started"
+  },
+  "182 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/send/0.17.2",
+    "size": 14923,
+    "status": "started"
+  },
+  "183 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/body-parser/1.19.2",
+    "size": 13932,
+    "status": "started"
+  },
+  "184 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mime-types/2.1.35",
+    "size": 5591,
+    "status": "started"
+  },
+  "185 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/negotiator/0.6.3",
+    "size": 6399,
+    "status": "started"
+  },
+  "186 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/qs/6.9.7",
+    "size": 36886,
+    "status": "started"
+  },
+  "187 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/toidentifier/1.0.1",
+    "size": 2347,
+    "status": "started"
+  },
+  "188 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "size": 6986,
+    "status": "started"
+  },
+  "189 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/array-flatten/1.1.1",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "found_in_store"
+  },
+  "190 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/content-type/1.0.4",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "found_in_store"
+  },
+  "191 error pnpm": {
+    "errno": -20,
+    "code": "ENOTDIR",
+    "syscall": "mkdir",
+    "path": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE/node_modules",
+    "err": {
+      "name": "pnpm",
+      "message": "ENOTDIR: not a directory, mkdir '/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE/node_modules'",
+      "code": "ENOTDIR",
+      "stack": "pnpm: ENOTDIR: not a directory, mkdir '/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE/node_modules'"
+    }
+  },
+  "192 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "found_in_store"
+  },
+  "193 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.0.0",
+    "requester": "/home/crio-user/workspace/XFlix-Backend/shoaibnoman786-ME_BUILDOUT_XFLIX_NODE",
+    "status": "found_in_store"
+  }
+}
