@@ -82,9 +82,6 @@
 .upload-input.is-invalid {
   border-color: var(--danger);
 }
-.upload-input[type="date"] {
-  color-scheme: dark;
-}
 .upload-help {
   font-size: 13px;
   color: var(--muted);
