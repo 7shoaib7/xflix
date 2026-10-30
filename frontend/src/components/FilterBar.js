@@ -1,8 +1,16 @@
 import React from "react";
 import { AGE_GROUPS, GENRES } from "../utils";
+import ScheduleRoundedIcon from "@mui/icons-material/ScheduleRounded";
+import LocalFireDepartmentRoundedIcon from "@mui/icons-material/LocalFireDepartmentRounded";
+import SortMenu from "./SortMenu";
 import "./FilterBar.css";
 
 const AGE_OPTIONS = [{ label: "Any age", value: "" }, ...AGE_GROUPS.map((a) => ({ label: a, value: a }))];
+
+const SORT_OPTIONS = [
+  { value: "releaseDate", label: "Release date", hint: "Newest first", icon: ScheduleRoundedIcon, id: "release-date-option" },
+  { value: "viewCount", label: "Most viewed", hint: "Highest views first", icon: LocalFireDepartmentRoundedIcon, id: "view-count-option" },
+];
 
 const FilterBar = ({
   counts,
@@ -59,22 +67,7 @@ const FilterBar = ({
         })}
       </div>
 
-      <label className="sort">
-        <span className="sort-label">Sort by</span>
-        <select
-          className="sort-select"
-          name="sortBy"
-          value={sort}
-          onChange={(event) => onSortChange(event.target.value)}
-        >
-          <option id="release-date-option" value="releaseDate">
-            Release date
-          </option>
-          <option id="view-count-option" value="viewCount">
-            Most viewed
-          </option>
-        </select>
-      </label>
+      <SortMenu options={SORT_OPTIONS} value={sort} onChange={onSortChange} />
     </div>
   </nav>
 );

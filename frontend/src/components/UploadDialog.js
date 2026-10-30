@@ -5,12 +5,13 @@ import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import FileUploadOutlinedIcon from "@mui/icons-material/FileUploadOutlined";
 import { useSnackbar } from "notistack";
 import Thumb from "./Thumb";
+import DatePicker, { toKey } from "./DatePicker";
 import { errorMessage, uploadVideo } from "../api";
 import { AGE_GROUPS, GENRES, embedLink, thumbnailFor, youtubeId } from "../utils";
 import "./UploadDialog.css";
 
 const EMPTY = { link: "", previewImage: "", title: "", genre: "", contentRating: "", releaseDate: "" };
-const today = () => new Date().toISOString().slice(0, 10);
+const today = () => toKey(new Date());
 
 const ChoiceGroup = ({ legend, name, options, value, onChange, error, showError }) => (
   <fieldset className="upload-field" aria-describedby={showError && error ? `${name}-error` : undefined}>
@@ -220,15 +221,13 @@ const UploadDialog = ({ open, onClose, onUploaded }) => {
                 <label htmlFor="up-date" className="upload-label">
                   Release date
                 </label>
-                <input
+                <DatePicker
                   id="up-date"
-                  type="date"
                   max={today()}
-                  className={`upload-input ${showErrors && errors.releaseDate ? "is-invalid" : ""}`}
                   value={form.releaseDate}
-                  onChange={fromInput("releaseDate")}
-                  aria-invalid={Boolean(showErrors && errors.releaseDate)}
-                  aria-describedby={describedBy("releaseDate")}
+                  onChange={update("releaseDate")}
+                  invalid={Boolean(showErrors && errors.releaseDate)}
+                  describedBy={describedBy("releaseDate")}
                 />
                 {fieldError("releaseDate") || (
                   <span id="releaseDate-help" className="sr-only">
