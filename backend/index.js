@@ -11,7 +11,7 @@ let server;
 // );
 
 mongoose.connect(config.mongoose.url, config.mongoose.option).then(() => {
-  logger.info(`Connected to MongoDB at ${config.mongoose.url}`);
+  logger.info("Connected to MongoDB");
   server = app.listen(config.backend_port, () =>{
     logger.info(`Listening to port ${config.backend_port}`);
   });
