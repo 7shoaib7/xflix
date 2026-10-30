@@ -10,7 +10,7 @@ let server;
 //   console.log(`App listening on port 8082!`)
 // );
 
-mongoose.connect(config.mongoose.url, config.mongoose.option).then(() => {
+mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
   logger.info("Connected to MongoDB");
   server = app.listen(config.backend_port, () =>{
     logger.info(`Listening to port ${config.backend_port}`);
